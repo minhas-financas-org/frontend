@@ -1,6 +1,6 @@
 {
   "projects": {
-    "production": "minhas-financas-eef05"
+    "production": "minhas-financas"
   },
   "targets": {
     "minhas-financas-eef05": {
