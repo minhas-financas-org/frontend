@@ -1,0 +1,10 @@
+.installments-container {
+    max-height: 0px;
+    overflow: hidden;
+
+    transition: all 1s;
+
+    &--visible {
+        max-height: 300px;
+    }
+}

@@ -1,0 +1,1 @@
+export type ChartSeries = { name: string; data: number[]; }

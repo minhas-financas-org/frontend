@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "production": "greencapital"
+  },
+  "targets": {
+    "greencapital": {
+      "hosting": {
+        "manager": [
+          "manager-greencapital"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

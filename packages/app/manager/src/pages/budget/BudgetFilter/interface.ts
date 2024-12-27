@@ -1,0 +1,1 @@
+export type Type = 'latest' | 'oldest' | 'highest' | 'lowest';

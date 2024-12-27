@@ -1,0 +1,9 @@
+.category-card {
+    &--input {
+        border-left: 4px solid var(--primary);
+    }
+
+    &--output {
+        border-left: 4px solid var(--error);
+    }
+}
