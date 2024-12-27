@@ -57,21 +57,21 @@ export default function Layout({ children }: React.PropsWithChildren<LayoutProps
                     <Sidebar
                         upButtons={
                             <>
-                                <SidebarButton
+                                {/* <SidebarButton
                                     path="dashboard"
                                     icon={<Icon name="graph-bar" />}
                                     onClick={() => navigate('/dashboard')}
-                                />
+                                /> */}
                                 <SidebarButton
                                     path="budgets"
                                     icon={<Icon name="schedule" />}
                                     onClick={() => navigate(`/budgets/${format(new Date(), 'yyyy-MM')}/list`)}
                                 />
-                                <SidebarButton
+                                {/* <SidebarButton
                                     path="goals"
                                     icon={<Icon name="file-check" />}
                                     onClick={() => navigate('/goals')}
-                                />
+                                /> */}
                                 <SidebarButton
                                     path="categories"
                                     icon={<Icon name="folder" />}

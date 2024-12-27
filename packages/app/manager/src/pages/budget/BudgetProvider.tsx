@@ -1,7 +1,7 @@
-import { useLocation, useParams } from 'react-router-dom';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { createContext, useEffect, useMemo, useState } from 'react';
 
-import { addMonths, format } from 'date-fns';
+import { addMonths, format, formatDate } from 'date-fns';
 
 import useFilter from '@minhas-financas/ui/hooks/useFilter';
 import { useDrawer } from '@minhas-financas/ui/components/Drawer';
@@ -80,12 +80,14 @@ function getInstallmentsDates(total: number, date: string): string[] {
 
 interface BudgetProviderProps { children: React.ReactNode; }
 export default function BudgetProvider({ children }: BudgetProviderProps) {
+    const location = useLocation();
+    const navigate = useNavigate();
+
     const [currentDate, setCurrentDate] = useState<string>('');
     const [releases, setReleases] = useState<BudgetData[]>([]);
     const [sortType, setSortType] = useState<Type>('latest');
     const [loading, setLoading] = useState<BudgetLoading>({ page: true, table: true });
 
-    const location = useLocation();
     const { currentUser } = useUser();
     const { categoryData } = useGlobal();
     const [openDrawer, toggleDrawer] = useDrawer();
@@ -109,6 +111,11 @@ export default function BudgetProvider({ children }: BudgetProviderProps) {
 
     useEffect(() => {
         if (!currentUser) { return; };
+
+        if (!date) {
+            navigate(`/budgets/${formatDate(new Date(), 'yyyy-MM')}/list`);
+            return;
+        }
 
         setLoading(prev => ({ ...prev, table: true }));
 

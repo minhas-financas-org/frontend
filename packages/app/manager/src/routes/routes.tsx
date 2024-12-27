@@ -1,5 +1,7 @@
 import { createBrowserRouter, Navigate, Outlet } from 'react-router-dom';
 
+import { formatDate } from 'date-fns';
+
 import App from '@/App';
 import Error from '@/pages/error';
 // import Goals from '@/pages/goals';
@@ -22,7 +24,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Navigate to='/dashboard' />,
+                element: <Navigate to={`/budgets/${formatDate(new Date(), 'yyyy-MM')}/list`} />,
             },
             {
                 path: '/dashboard',

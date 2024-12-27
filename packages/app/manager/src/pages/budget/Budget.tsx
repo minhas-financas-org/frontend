@@ -15,7 +15,9 @@ export default function Budget() {
     const { months, formDrawer } = useBudget();
     const { date } = useParams<{ date: string; }>();
 
-    const index = months.findIndex((month) => month.value === date);
+    const index = date
+        ? months.findIndex((month) => month.value === date)
+        : 2;
 
     const handleTabsChange = (index: number) => { navigate(`${months[index].value}/list`); };
 
