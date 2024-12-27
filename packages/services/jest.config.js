@@ -8,7 +8,7 @@ module.exports = {
     preset: 'ts-jest/presets/js-with-ts',
     moduleNameMapper: {
         ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
-        '^@greencapital/tollkit(.*)$': '<rootDir>/../tollkit/dist/index.js',
+        '^@minhas-financas/tollkit(.*)$': '<rootDir>/../tollkit/dist/index.js',
     },
     testEnvironment: 'jsdom',
     testMatch: ['**/__tests__/**/*.ts', '**/?(*.)+(spec|test).ts'],

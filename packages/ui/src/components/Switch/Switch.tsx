@@ -1,6 +1,6 @@
 import { InputHTMLAttributes, useMemo, useState } from 'react';
 
-import { uuid } from '@greencapital/toolkit/uuid';
+import { uuid } from '@minhas-financas/toolkit/uuid';
 
 import { joinClass } from '@/utils';
 import createComponent from '@/core/createComponent';

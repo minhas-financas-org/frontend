@@ -1,10 +1,10 @@
 import { Outlet, useNavigate, useParams } from 'react-router-dom';
 
-import Page from '@greencapital/ui/layout/Page';
-import Icon from '@greencapital/ui/components/Icon';
-import Button from '@greencapital/ui/components/Button';
-import { Tab, Tabs } from '@greencapital/ui/components/Tabs';
-import Stack from '@greencapital/ui/components/Stack';
+import Page from '@minhas-financas/ui/layout/Page';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Button from '@minhas-financas/ui/components/Button';
+import { Tab, Tabs } from '@minhas-financas/ui/components/Tabs';
+import Stack from '@minhas-financas/ui/components/Stack';
 
 import { release } from '@/services/core';
 

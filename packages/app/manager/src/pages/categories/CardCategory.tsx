@@ -1,11 +1,11 @@
-import Icon from '@greencapital/ui/components/Icon';
-import Stack from '@greencapital/ui/components/Stack';
-import ButtonIcon from '@greencapital/ui/components/ButtonIcon';
-import Typography from '@greencapital/ui/components/Typography';
-import { Card, CardContent } from '@greencapital/ui/components/Card';
-import { joinClass } from '@greencapital/ui/utils';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Stack from '@minhas-financas/ui/components/Stack';
+import ButtonIcon from '@minhas-financas/ui/components/ButtonIcon';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Card, CardContent } from '@minhas-financas/ui/components/Card';
+import { joinClass } from '@minhas-financas/ui/utils';
 
-import type { CategoryData } from '@greencapital/services/categories';
+import type { CategoryData } from '@minhas-financas/services/categories';
 
 import './Categories.scss';
 

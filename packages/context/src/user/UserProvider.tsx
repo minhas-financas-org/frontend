@@ -1,10 +1,10 @@
 import { useEffect, useState, createContext, useMemo } from 'react';
 
-import logger from '@greencapital/toolkit/logger';
-import { getParams } from '@greencapital/toolkit/url';
+import logger from '@minhas-financas/toolkit/logger';
+import { getParams } from '@minhas-financas/toolkit/url';
 
-import Auth from '@greencapital/services/auth';
-import User, { type UserData } from '@greencapital/services/user';
+import Auth from '@minhas-financas/services/auth';
+import User, { type UserData } from '@minhas-financas/services/user';
 
 export interface UserContext {
     currentUser: UserData;

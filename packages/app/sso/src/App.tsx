@@ -1,15 +1,15 @@
 import { useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 
-import Favicon from '@greencapital/ui/assets/favicon/favicon.svg';
-import AlertProvider, { useAlert } from '@greencapital/ui/components/Alert';
-import { ThemeProvider, createTheme, useTheme } from '@greencapital/ui/theme';
+import Favicon from '@minhas-financas/ui/assets/favicon/favicon.svg';
+import AlertProvider, { useAlert } from '@minhas-financas/ui/components/Alert';
+import { ThemeProvider, createTheme, useTheme } from '@minhas-financas/ui/theme';
 
-import { getParams } from '@greencapital/toolkit/url';
+import { getParams } from '@minhas-financas/toolkit/url';
 
 import { GlobalProvider } from './global';
 
-import '@greencapital/ui/styles';
+import '@minhas-financas/ui/styles';
 
 function setFavicon(color: string) {
 

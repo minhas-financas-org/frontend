@@ -13,8 +13,8 @@ export default [
         input: glob.sync('src/**/index.ts'),
         external: [
             ...Object.keys(packageJson.peerDependencies),
-            '@greencapital/toolkit',
-            '@greencapital/services',
+            '@minhas-financas/toolkit',
+            '@minhas-financas/services',
         ],
         output: [
             {

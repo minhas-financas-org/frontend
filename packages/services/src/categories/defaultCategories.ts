@@ -1,4 +1,4 @@
-import { slug } from '@greencapital/toolkit/string';
+import { slug } from '@minhas-financas/toolkit/string';
 
 import type { CategoryData } from './interface';
 

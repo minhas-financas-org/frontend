@@ -1,19 +1,19 @@
 import { useEffect } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 
-import Chip from '@greencapital/ui/components/Chip';
-import Stack from '@greencapital/ui/components/Stack';
-import Input from '@greencapital/ui/components/Input';
-import Button from '@greencapital/ui/components/Button';
-import Typography from '@greencapital/ui/components/Typography';
-import { Checkbox } from '@greencapital/ui/components/Checkbox';
-import MultiSelect from '@greencapital/ui/components/MultiSelect';
-import { Select, Option } from '@greencapital/ui/components/Select';
-import { Drawer, DrawerContent } from '@greencapital/ui/components/Drawer';
-import Form, { Control, FormControl, useForm } from '@greencapital/ui/components/Form';
+import Chip from '@minhas-financas/ui/components/Chip';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Input from '@minhas-financas/ui/components/Input';
+import Button from '@minhas-financas/ui/components/Button';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Checkbox } from '@minhas-financas/ui/components/Checkbox';
+import MultiSelect from '@minhas-financas/ui/components/MultiSelect';
+import { Select, Option } from '@minhas-financas/ui/components/Select';
+import { Drawer, DrawerContent } from '@minhas-financas/ui/components/Drawer';
+import Form, { Control, FormControl, useForm } from '@minhas-financas/ui/components/Form';
 
-import type { CategoryData } from '@greencapital/services/categories';
-import type { BudgetData, Type } from '@greencapital/services/budgets';
+import type { CategoryData } from '@minhas-financas/services/categories';
+import type { BudgetData, Type } from '@minhas-financas/services/budgets';
 
 import { useGlobal } from '@/global';
 

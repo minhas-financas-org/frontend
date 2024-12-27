@@ -1,26 +1,26 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import Page from '@greencapital/ui/layout/Page';
-import { debounce } from '@greencapital/ui/utils';
-import Icon from '@greencapital/ui/components/Icon';
-import Slide from '@greencapital/ui/animations/Slide';
-import Input from '@greencapital/ui/components/Input';
-import Stack from '@greencapital/ui/components/Stack';
-import Button from '@greencapital/ui/components/Button';
-import useFilter from '@greencapital/ui/hooks/useFilter';
-import Skeleton from '@greencapital/ui/components/Skeleton';
-import { useModal } from '@greencapital/ui/components/Modal';
-import { Tab, Tabs } from '@greencapital/ui/components/Tabs';
-import ButtonIcon from '@greencapital/ui/components/ButtonIcon';
-import Typography from '@greencapital/ui/components/Typography';
-import { Grid, GridItem } from '@greencapital/ui/components/Grid';
-import Form, { Control, FormControl, useForm } from '@greencapital/ui/components/Form';
+import Page from '@minhas-financas/ui/layout/Page';
+import { debounce } from '@minhas-financas/ui/utils';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Slide from '@minhas-financas/ui/animations/Slide';
+import Input from '@minhas-financas/ui/components/Input';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Button from '@minhas-financas/ui/components/Button';
+import useFilter from '@minhas-financas/ui/hooks/useFilter';
+import Skeleton from '@minhas-financas/ui/components/Skeleton';
+import { useModal } from '@minhas-financas/ui/components/Modal';
+import { Tab, Tabs } from '@minhas-financas/ui/components/Tabs';
+import ButtonIcon from '@minhas-financas/ui/components/ButtonIcon';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Grid, GridItem } from '@minhas-financas/ui/components/Grid';
+import Form, { Control, FormControl, useForm } from '@minhas-financas/ui/components/Form';
 
-import { getFilledArray } from '@greencapital/toolkit/array';
-import { slug } from '@greencapital/toolkit/string';
+import { getFilledArray } from '@minhas-financas/toolkit/array';
+import { slug } from '@minhas-financas/toolkit/string';
 
-import type { CategoryData } from '@greencapital/services/categories';
+import type { CategoryData } from '@minhas-financas/services/categories';
 
 import { release } from '@/services/core';
 

@@ -1,6 +1,6 @@
-import { maskCurrency } from '@greencapital/toolkit/mask';
+import { maskCurrency } from '@minhas-financas/toolkit/mask';
 
-import type { BudgetData } from '@greencapital/services/budgets';
+import type { BudgetData } from '@minhas-financas/services/budgets';
 
 export default function getHigherExpenses(releases: BudgetData[] = []) {
     return releases

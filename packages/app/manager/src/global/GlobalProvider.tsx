@@ -1,9 +1,9 @@
 import { createContext, useEffect, useMemo, useState } from 'react';
 
-import type { TagsData } from '@greencapital/services/tags';
-import type { CategoriesData } from '@greencapital/services/categories';
+import type { TagsData } from '@minhas-financas/services/tags';
+import type { CategoriesData } from '@minhas-financas/services/categories';
 
-import { useUser } from '@greencapital/context/user';
+import { useUser } from '@minhas-financas/context/user';
 
 import { categoriesServices, tagsServices } from '@/services/core';
 

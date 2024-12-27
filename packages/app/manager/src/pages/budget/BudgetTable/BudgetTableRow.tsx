@@ -1,14 +1,14 @@
 import { format, formatISO, addDays } from 'date-fns';
 
-import Chip from '@greencapital/ui/components/Chip';
-import Icon from '@greencapital/ui/components/Icon';
-import Stack from '@greencapital/ui/components/Stack';
-import type { Colors } from '@greencapital/ui/theme';
-import { TableCell } from '@greencapital/ui/components/Table';
+import Chip from '@minhas-financas/ui/components/Chip';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Stack from '@minhas-financas/ui/components/Stack';
+import type { Colors } from '@minhas-financas/ui/theme';
+import { TableCell } from '@minhas-financas/ui/components/Table';
 
-import { maskCurrency } from '@greencapital/toolkit/mask';
+import { maskCurrency } from '@minhas-financas/toolkit/mask';
 
-import type { BudgetData } from '@greencapital/services/budgets';
+import type { BudgetData } from '@minhas-financas/services/budgets';
 
 interface RowDetailProps { release: BudgetData; date: string; }
 export default function RowDetails({ release, date }: RowDetailProps) {

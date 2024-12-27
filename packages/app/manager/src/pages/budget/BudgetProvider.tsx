@@ -3,16 +3,16 @@ import { createContext, useEffect, useMemo, useState } from 'react';
 
 import { addMonths, format } from 'date-fns';
 
-import useFilter from '@greencapital/ui/hooks/useFilter';
-import { useDrawer } from '@greencapital/ui/components/Drawer';
+import useFilter from '@minhas-financas/ui/hooks/useFilter';
+import { useDrawer } from '@minhas-financas/ui/components/Drawer';
 
-import { uuid } from '@greencapital/toolkit/uuid';
-import { getFilledArray } from '@greencapital/toolkit/array';
+import { uuid } from '@minhas-financas/toolkit/uuid';
+import { getFilledArray } from '@minhas-financas/toolkit/array';
 
-import { CategoryData } from '@greencapital/services/categories';
-import type { BudgetData } from '@greencapital/services/budgets';
+import { CategoryData } from '@minhas-financas/services/categories';
+import type { BudgetData } from '@minhas-financas/services/budgets';
 
-import { useUser } from '@greencapital/context/user';
+import { useUser } from '@minhas-financas/context/user';
 
 import { useGlobal } from '@/global';
 import { budgetsServices } from '@/services/core';

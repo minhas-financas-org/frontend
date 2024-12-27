@@ -1,19 +1,19 @@
 import { useEffect } from 'react';
 
-import Page from '@greencapital/ui/layout/Page';
-import Icon from '@greencapital/ui/components/Icon';
-import Slide from '@greencapital/ui/animations/Slide';
-import Stack from '@greencapital/ui/components/Stack';
-import Button from '@greencapital/ui/components/Button';
-import Skeleton from '@greencapital/ui/components/Skeleton';
-import { useDrawer } from '@greencapital/ui/components/Drawer';
-import Typography from '@greencapital/ui/components/Typography';
-import { Grid, GridItem } from '@greencapital/ui/components/Grid';
+import Page from '@minhas-financas/ui/layout/Page';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Slide from '@minhas-financas/ui/animations/Slide';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Button from '@minhas-financas/ui/components/Button';
+import Skeleton from '@minhas-financas/ui/components/Skeleton';
+import { useDrawer } from '@minhas-financas/ui/components/Drawer';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Grid, GridItem } from '@minhas-financas/ui/components/Grid';
 
-import { getParams } from '@greencapital/toolkit/url';
-import { getFilledArray } from '@greencapital/toolkit/array';
+import { getParams } from '@minhas-financas/toolkit/url';
+import { getFilledArray } from '@minhas-financas/toolkit/array';
 
-import type { TagData } from '@greencapital/services/tags';
+import type { TagData } from '@minhas-financas/services/tags';
 
 import { release } from '@/services/core';
 

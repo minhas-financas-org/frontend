@@ -19,7 +19,7 @@ export default defineConfig({
         host: true,
     },
     css: {
-        postcss: '@greencapital/ui/styles/index.css',
+        postcss: '@minhas-financas/ui/styles/index.css',
     },
     optimizeDeps: {
         esbuildOptions: {

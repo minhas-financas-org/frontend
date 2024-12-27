@@ -2,17 +2,17 @@ import { useNavigate } from 'react-router-dom';
 
 import { format } from 'date-fns';
 
-import Box from '@greencapital/ui/components/Box';
-import Header from '@greencapital/ui/layout/Header';
-import Icon from '@greencapital/ui/components/Icon';
-import Slide from '@greencapital/ui/animations/Slide';
-import Stack from '@greencapital/ui/components/Stack';
-import Content from '@greencapital/ui/layout/Content';
-import Loading from '@greencapital/ui/components/Loading';
-import { Sidebar, SidebarButton } from '@greencapital/ui/layout/Sidebar';
-import { createTheme, useTheme, themeDefaultLight, themeDefaultDark } from '@greencapital/ui/theme';
+import Box from '@minhas-financas/ui/components/Box';
+import Header from '@minhas-financas/ui/layout/Header';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Slide from '@minhas-financas/ui/animations/Slide';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Content from '@minhas-financas/ui/layout/Content';
+import Loading from '@minhas-financas/ui/components/Loading';
+import { Sidebar, SidebarButton } from '@minhas-financas/ui/layout/Sidebar';
+import { createTheme, useTheme, themeDefaultLight, themeDefaultDark } from '@minhas-financas/ui/theme';
 
-import { useUser } from '@greencapital/context/user';
+import { useUser } from '@minhas-financas/context/user';
 
 import { useGlobal } from '@/global';
 import { authServices } from '@/services/core';

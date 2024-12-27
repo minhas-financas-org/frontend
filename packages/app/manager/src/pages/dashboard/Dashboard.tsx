@@ -1,5 +1,5 @@
-import Page from '@greencapital/ui/layout/Page';
-import Box from '@greencapital/ui/components/Box';
+import Page from '@minhas-financas/ui/layout/Page';
+import Box from '@minhas-financas/ui/components/Box';
 
 import { release } from '@/services/core';
 

@@ -1,12 +1,12 @@
 {
   "projects": {
-    "production": "greencapital"
+    "production": "minhas-financas"
   },
   "targets": {
-    "greencapital": {
+    "minhas-financas": {
       "hosting": {
         "manager": [
-          "manager-greencapital"
+          "manager-minhas-financas"
         ]
       }
     }

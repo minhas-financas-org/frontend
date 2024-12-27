@@ -1,6 +1,6 @@
 import { HTMLAttributes } from 'react';
 
-import { getInitials } from '@greencapital/toolkit/string';
+import { getInitials } from '@minhas-financas/toolkit/string';
 
 import Icon from '@/components/Icon';
 import Ripple from '@/components/Ripple';

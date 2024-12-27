@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 
-import { FormControl, useForm } from '@greencapital/ui/components/Form';
+import { FormControl, useForm } from '@minhas-financas/ui/components/Form';
 
-import type { BudgetData } from '@greencapital/services/budgets';
+import type { BudgetData } from '@minhas-financas/services/budgets';
 
 import useBudget from '../useBudget';
 import type { ReleaseForm } from './interface';

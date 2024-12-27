@@ -1,5 +1,5 @@
 {
-  "name": "@greencapital/context",
+  "name": "@minhas-financas/context",
   "private": true,
   "version": "0.0.0",
   "main": "src/index.ts",

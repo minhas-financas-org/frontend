@@ -1,10 +1,10 @@
-import ButtonIcon from '@greencapital/ui/components/ButtonIcon';
-import { Card, CardContent } from '@greencapital/ui/components/Card';
-import Icon from '@greencapital/ui/components/Icon';
-import Stack from '@greencapital/ui/components/Stack';
-import Typography from '@greencapital/ui/components/Typography';
+import ButtonIcon from '@minhas-financas/ui/components/ButtonIcon';
+import { Card, CardContent } from '@minhas-financas/ui/components/Card';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Typography from '@minhas-financas/ui/components/Typography';
 
-import type { TagData } from '@greencapital/services/tags';
+import type { TagData } from '@minhas-financas/services/tags';
 
 import useTag from './useTags';
 

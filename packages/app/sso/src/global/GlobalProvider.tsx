@@ -1,12 +1,12 @@
 
 import { createContext, useMemo } from 'react';
 
-import { useAlert } from '@greencapital/ui/components/Alert';
-import Icon from '@greencapital/ui/components/Icon';
+import { useAlert } from '@minhas-financas/ui/components/Alert';
+import Icon from '@minhas-financas/ui/components/Icon';
 
-import logger from '@greencapital/toolkit/logger';
+import logger from '@minhas-financas/toolkit/logger';
 
-import { defaultCategories } from '@greencapital/services/categories';
+import { defaultCategories } from '@minhas-financas/services/categories';
 
 import { authServices, userServices, categoriesServices, url } from '@/services/core';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@greencapital/ui",
+  "name": "@minhas-financas/ui",
   "private": true,
   "version": "0.0.0",
   "main": "dist/index.js",

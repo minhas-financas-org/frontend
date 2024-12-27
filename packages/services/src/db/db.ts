@@ -18,7 +18,7 @@ import {
     runTransaction
 } from 'firebase/firestore';
 
-import { Path, ArrayOrObject } from '@greencapital/toolkit/interface';
+import { Path, ArrayOrObject } from '@minhas-financas/toolkit/interface';
 
 type Field = WithFieldValue<DocumentData>;
 

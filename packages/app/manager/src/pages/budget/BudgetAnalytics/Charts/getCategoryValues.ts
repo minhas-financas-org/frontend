@@ -1,6 +1,6 @@
-import type { ChartData } from '@greencapital/ui/charts';
+import type { ChartData } from '@minhas-financas/ui/charts';
 
-import type { BudgetData, Type } from '@greencapital/services/budgets';
+import type { BudgetData, Type } from '@minhas-financas/services/budgets';
 
 type DataChart = { value: number; label: string; };
 

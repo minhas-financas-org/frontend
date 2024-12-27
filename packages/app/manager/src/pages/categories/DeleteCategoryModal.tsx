@@ -1,8 +1,8 @@
-import Button from '@greencapital/ui/components/Button';
-import Typography from '@greencapital/ui/components/Typography';
-import { Modal, ModalFooter } from '@greencapital/ui/components/Modal';
+import Button from '@minhas-financas/ui/components/Button';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Modal, ModalFooter } from '@minhas-financas/ui/components/Modal';
 
-import type { CategoryData } from '@greencapital/services/categories';
+import type { CategoryData } from '@minhas-financas/services/categories';
 
 import useCategory from './useCategories';
 

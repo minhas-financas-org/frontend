@@ -1,9 +1,9 @@
 import { CSSProperties } from 'react';
 
-import Stack from '@greencapital/ui/components/Stack';
-import Loading from '@greencapital/ui/components/Loading';
-import Typography from '@greencapital/ui/components/Typography';
-import { Card, CardContent } from '@greencapital/ui/components/Card';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Loading from '@minhas-financas/ui/components/Loading';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Card, CardContent } from '@minhas-financas/ui/components/Card';
 
 import useBudget from '../../useBudget';
 

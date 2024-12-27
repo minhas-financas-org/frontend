@@ -10,11 +10,11 @@ import {
     createUserWithEmailAndPassword,
 } from 'firebase/auth';
 
-import DB from '@greencapital/services/db';
-import TagsServices from '@greencapital/services/tags';
-import AuthServices from '@greencapital/services/auth';
-import UserServices from '@greencapital/services/user';
-import CategoriesServices from '@greencapital/services/categories';
+import DB from '@minhas-financas/services/db';
+import TagsServices from '@minhas-financas/services/tags';
+import AuthServices from '@minhas-financas/services/auth';
+import UserServices from '@minhas-financas/services/user';
+import CategoriesServices from '@minhas-financas/services/categories';
 
 // VARIABLES
 export const url = {

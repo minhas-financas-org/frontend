@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import Fade from '@greencapital/ui/animations/Fade';
-import Stack from '@greencapital/ui/components/Stack';
-import Button from '@greencapital/ui/components/Button';
-import Typography from '@greencapital/ui/components/Typography';
+import Fade from '@minhas-financas/ui/animations/Fade';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Button from '@minhas-financas/ui/components/Button';
+import Typography from '@minhas-financas/ui/components/Typography';
 
 import { authServices, url } from '@/services/core';
 

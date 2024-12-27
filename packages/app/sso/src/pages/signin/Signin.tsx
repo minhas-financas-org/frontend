@@ -1,23 +1,23 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import Box from '@greencapital/ui/components/Box';
-import Logo from '@greencapital/ui/components/Logo';
-import Icon from '@greencapital/ui/components/Icon';
-import Slide from '@greencapital/ui/animations/Slide';
-import Input from '@greencapital/ui/components/Input';
-import Stack from '@greencapital/ui/components/Stack';
-import Button from '@greencapital/ui/components/Button';
-import Divider from '@greencapital/ui/components/Divider';
-import Loading from '@greencapital/ui/components/Loading';
-import { useAlert } from '@greencapital/ui/components/Alert';
-import Container from '@greencapital/ui/components/Container';
-import ButtonIcon from '@greencapital/ui/components/ButtonIcon';
-import Typography from '@greencapital/ui/components/Typography';
-import { Card, CardContent } from '@greencapital/ui/components/Card';
-import Form, { Control, useForm, FormControl } from '@greencapital/ui/components/Form';
+import Box from '@minhas-financas/ui/components/Box';
+import Logo from '@minhas-financas/ui/components/Logo';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Slide from '@minhas-financas/ui/animations/Slide';
+import Input from '@minhas-financas/ui/components/Input';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Button from '@minhas-financas/ui/components/Button';
+import Divider from '@minhas-financas/ui/components/Divider';
+import Loading from '@minhas-financas/ui/components/Loading';
+import { useAlert } from '@minhas-financas/ui/components/Alert';
+import Container from '@minhas-financas/ui/components/Container';
+import ButtonIcon from '@minhas-financas/ui/components/ButtonIcon';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Card, CardContent } from '@minhas-financas/ui/components/Card';
+import Form, { Control, useForm, FormControl } from '@minhas-financas/ui/components/Form';
 
-import logger from '@greencapital/toolkit/logger';
+import logger from '@minhas-financas/toolkit/logger';
 
 import { authServices, release, url } from '@/services/core';
 

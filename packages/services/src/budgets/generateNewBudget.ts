@@ -1,7 +1,7 @@
 import { addMonths, format } from 'date-fns';
 
-import { uuid } from '@greencapital/toolkit/uuid';
-import { getFilledArray } from '@greencapital/toolkit/array';
+import { uuid } from '@minhas-financas/toolkit/uuid';
+import { getFilledArray } from '@minhas-financas/toolkit/array';
 
 import { CategoryData } from '@/categories';
 

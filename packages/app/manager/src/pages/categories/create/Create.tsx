@@ -1,17 +1,17 @@
 import { useNavigate } from 'react-router-dom';
 
-import Page from '@greencapital/ui/layout/Page';
-import Box from '@greencapital/ui/components/Box';
-import Icon from '@greencapital/ui/components/Icon';
-import Input from '@greencapital/ui/components/Input';
-import Stack from '@greencapital/ui/components/Stack';
-import Button from '@greencapital/ui/components/Button';
-import { Select, Option } from '@greencapital/ui/components/Select';
-import Form, { useForm, FormControl, Control } from '@greencapital/ui/components/Form';
+import Page from '@minhas-financas/ui/layout/Page';
+import Box from '@minhas-financas/ui/components/Box';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Input from '@minhas-financas/ui/components/Input';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Button from '@minhas-financas/ui/components/Button';
+import { Select, Option } from '@minhas-financas/ui/components/Select';
+import Form, { useForm, FormControl, Control } from '@minhas-financas/ui/components/Form';
 
-import { slug } from '@greencapital/toolkit/string';
+import { slug } from '@minhas-financas/toolkit/string';
 
-import type { CategoryData } from '@greencapital/services/categories';
+import type { CategoryData } from '@minhas-financas/services/categories';
 
 import { release } from '@/services/core';
 

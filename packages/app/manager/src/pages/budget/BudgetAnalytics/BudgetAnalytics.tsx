@@ -1,18 +1,18 @@
 import { useMemo } from 'react';
 
-import Donut from '@greencapital/ui/charts/Donut';
-import Icon from '@greencapital/ui/components/Icon';
-import Chip from '@greencapital/ui/components/Chip';
-import Stack from '@greencapital/ui/components/Stack';
-import StackBar from '@greencapital/ui/charts/StackBar';
-import Tooltip from '@greencapital/ui/components/Tooltip';
-import { type MappedColors } from '@greencapital/ui/theme';
-import Typography from '@greencapital/ui/components/Typography';
-import { Grid, GridItem } from '@greencapital/ui/components/Grid';
-import { Card, CardContent } from '@greencapital/ui/components/Card';
-import { CHART_HOT_COLORS, CHART_COLD_COLORS } from '@greencapital/ui/charts';
+import Donut from '@minhas-financas/ui/charts/Donut';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Chip from '@minhas-financas/ui/components/Chip';
+import Stack from '@minhas-financas/ui/components/Stack';
+import StackBar from '@minhas-financas/ui/charts/StackBar';
+import Tooltip from '@minhas-financas/ui/components/Tooltip';
+import { type MappedColors } from '@minhas-financas/ui/theme';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Grid, GridItem } from '@minhas-financas/ui/components/Grid';
+import { Card, CardContent } from '@minhas-financas/ui/components/Card';
+import { CHART_HOT_COLORS, CHART_COLD_COLORS } from '@minhas-financas/ui/charts';
 
-import { maskCurrency } from '@greencapital/toolkit/mask';
+import { maskCurrency } from '@minhas-financas/toolkit/mask';
 
 import ChartCard from './Charts';
 import useBudget from '../useBudget';

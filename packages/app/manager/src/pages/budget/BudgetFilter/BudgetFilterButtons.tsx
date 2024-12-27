@@ -1,7 +1,7 @@
-import Icon from '@greencapital/ui/components/Icon';
-import Stack from '@greencapital/ui/components/Stack';
-import Button from '@greencapital/ui/components/Button';
-import { Menu, MenuButton, useMenu } from '@greencapital/ui/components/Menu';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Button from '@minhas-financas/ui/components/Button';
+import { Menu, MenuButton, useMenu } from '@minhas-financas/ui/components/Menu';
 
 import type { Type } from './interface';
 import useBudget from '../useBudget';

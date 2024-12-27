@@ -1,7 +1,7 @@
 import { CSSProperties, useEffect, useMemo, useState } from 'react';
 
-import { slug } from '@greencapital/toolkit/string';
-import { maskCurrency } from '@greencapital/toolkit/mask';
+import { slug } from '@minhas-financas/toolkit/string';
+import { maskCurrency } from '@minhas-financas/toolkit/mask';
 
 import { joinClass } from '@/utils';
 import Icon from '@/components/Icon';

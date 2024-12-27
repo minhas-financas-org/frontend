@@ -1,4 +1,4 @@
-import { uuid } from '@greencapital/toolkit/uuid';
+import { uuid } from '@minhas-financas/toolkit/uuid';
 
 import type { Colors } from '@/theme';
 

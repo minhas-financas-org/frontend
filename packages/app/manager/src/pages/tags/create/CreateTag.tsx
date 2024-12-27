@@ -1,19 +1,19 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import Input from '@greencapital/ui/components/Input';
-import Stack from '@greencapital/ui/components/Stack';
-import Button from '@greencapital/ui/components/Button';
-import Loading from '@greencapital/ui/components/Loading';
-import Typography from '@greencapital/ui/components/Typography';
-import ColorPicker from '@greencapital/ui/components/ColorPicker';
-import { Drawer, DrawerContent } from '@greencapital/ui/components/Drawer';
-import Form, { useForm, FormControl, Control } from '@greencapital/ui/components/Form';
+import Input from '@minhas-financas/ui/components/Input';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Button from '@minhas-financas/ui/components/Button';
+import Loading from '@minhas-financas/ui/components/Loading';
+import Typography from '@minhas-financas/ui/components/Typography';
+import ColorPicker from '@minhas-financas/ui/components/ColorPicker';
+import { Drawer, DrawerContent } from '@minhas-financas/ui/components/Drawer';
+import Form, { useForm, FormControl, Control } from '@minhas-financas/ui/components/Form';
 
-import { slug } from '@greencapital/toolkit/string';
-import { formatUrl, getParams } from '@greencapital/toolkit/url';
+import { slug } from '@minhas-financas/toolkit/string';
+import { formatUrl, getParams } from '@minhas-financas/toolkit/url';
 
-import type { TagData } from '@greencapital/services/tags';
+import type { TagData } from '@minhas-financas/services/tags';
 
 import useTags from '../useTags';
 

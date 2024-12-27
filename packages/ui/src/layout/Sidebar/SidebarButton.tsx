@@ -1,6 +1,6 @@
 import { cloneElement, LiHTMLAttributes } from 'react';
 
-import { getPath } from '@greencapital/toolkit/url';
+import { getPath } from '@minhas-financas/toolkit/url';
 
 import { joinClass } from '@/utils';
 import Ripple from '@/components/Ripple';

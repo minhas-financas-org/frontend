@@ -1,14 +1,14 @@
 import { CSSProperties, useMemo, useState } from 'react';
 
-import Icon from '@greencapital/ui/components/Icon';
-import Stack from '@greencapital/ui/components/Stack';
-import useResize from '@greencapital/ui/hooks/useResize';
-import type { MappedColors } from '@greencapital/ui/theme';
-import Skeleton from '@greencapital/ui/components/Skeleton';
-import Typography from '@greencapital/ui/components/Typography';
-import { Grid, GridItem } from '@greencapital/ui/components/Grid';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Stack from '@minhas-financas/ui/components/Stack';
+import useResize from '@minhas-financas/ui/hooks/useResize';
+import type { MappedColors } from '@minhas-financas/ui/theme';
+import Skeleton from '@minhas-financas/ui/components/Skeleton';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Grid, GridItem } from '@minhas-financas/ui/components/Grid';
 
-import { maskCurrency } from '@greencapital/toolkit/mask';
+import { maskCurrency } from '@minhas-financas/toolkit/mask';
 
 import useBudget from '../useBudget';
 

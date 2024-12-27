@@ -1,16 +1,16 @@
 
-import { local } from '@greencapital/toolkit/dom/local';
-import type { Cookies } from '@greencapital/toolkit/dom/cookies';
+import { local } from '@minhas-financas/toolkit/dom/local';
+import type { Cookies } from '@minhas-financas/toolkit/dom/cookies';
 
 import Auth, { AuthConfig } from './auth';
 
-jest.mock('@greencapital/toolkit/dom/local', () => ({
+jest.mock('@minhas-financas/toolkit/dom/local', () => ({
     local: {
         remove: jest.fn(),
     },
 }));
 
-jest.mock('@greencapital/toolkit/dom/cookies', () => {
+jest.mock('@minhas-financas/toolkit/dom/cookies', () => {
     return {
         Cookies: jest.fn().mockImplementation(() => ({
             get: jest.fn(),

@@ -1,8 +1,8 @@
 import { useEffect, PropsWithChildren } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import logger from '@greencapital/toolkit/logger';
-import { getParams } from '@greencapital/toolkit/url';
+import logger from '@minhas-financas/toolkit/logger';
+import { getParams } from '@minhas-financas/toolkit/url';
 
 import { authServices, url } from '@/services/core';
 

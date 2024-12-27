@@ -1,12 +1,12 @@
 import { useParams } from 'react-router-dom';
 
-import Slide from '@greencapital/ui/animations/Slide';
-import Loading from '@greencapital/ui/components/Loading';
-import { Table, TableBody, TableCell, TableHeader } from '@greencapital/ui/components/Table';
-import Typography from '@greencapital/ui/components/Typography';
-import Icon from '@greencapital/ui/components/Icon';
+import Slide from '@minhas-financas/ui/animations/Slide';
+import Loading from '@minhas-financas/ui/components/Loading';
+import { Table, TableBody, TableCell, TableHeader } from '@minhas-financas/ui/components/Table';
+import Typography from '@minhas-financas/ui/components/Typography';
+import Icon from '@minhas-financas/ui/components/Icon';
 
-import type { BudgetData } from '@greencapital/services/budgets';
+import type { BudgetData } from '@minhas-financas/services/budgets';
 
 import useBudget from '../useBudget';
 import BudgetTableRow from './BudgetTableRow';

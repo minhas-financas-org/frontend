@@ -1,6 +1,6 @@
 import React, { Children, ReactElement, useEffect, cloneElement, useState, useRef, useMemo } from 'react';
 
-import { uuid } from '@greencapital/toolkit/uuid';
+import { uuid } from '@minhas-financas/toolkit/uuid';
 
 import { joinClass } from '@/utils';
 import type { Colors } from '@/theme';

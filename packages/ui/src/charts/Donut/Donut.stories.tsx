@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { Meta, StoryObj } from '@storybook/react';
 
-import { getRandom } from '@greencapital/toolkit/array';
+import { getRandom } from '@minhas-financas/toolkit/array';
 
 import Stack from '@/components/Stack';
 import Button from '@/components/Button';

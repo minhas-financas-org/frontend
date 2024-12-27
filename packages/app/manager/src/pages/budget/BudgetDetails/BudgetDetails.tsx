@@ -2,13 +2,13 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
-import { useDrawer } from '@greencapital/ui/components/Drawer';
-import Stack from '@greencapital/ui/components/Stack';
-import { Tab, TabContent, Tabs, useTabs } from '@greencapital/ui/components/Tabs';
+import { useDrawer } from '@minhas-financas/ui/components/Drawer';
+import Stack from '@minhas-financas/ui/components/Stack';
+import { Tab, TabContent, Tabs, useTabs } from '@minhas-financas/ui/components/Tabs';
 
-import { getParams } from '@greencapital/toolkit/url';
+import { getParams } from '@minhas-financas/toolkit/url';
 
-import { BudgetData } from '@greencapital/services/budgets';
+import { BudgetData } from '@minhas-financas/services/budgets';
 
 import useBudget from '../useBudget';
 import BudgetTable from '../BudgetTable';

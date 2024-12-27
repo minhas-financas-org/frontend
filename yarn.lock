@@ -1558,9 +1558,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@greencapital/context@*, @greencapital/context@workspace:packages/context":
+"@minhas-financas/context@*, @minhas-financas/context@workspace:packages/context":
   version: 0.0.0-use.local
-  resolution: "@greencapital/context@workspace:packages/context"
+  resolution: "@minhas-financas/context@workspace:packages/context"
   dependencies:
     "@chromatic-com/storybook": 1.9.0
     "@rollup/plugin-commonjs": ^28.0.1
@@ -1588,9 +1588,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@greencapital/e2e@workspace:packages/e2e":
+"@minhas-financas/e2e@workspace:packages/e2e":
   version: 0.0.0-use.local
-  resolution: "@greencapital/e2e@workspace:packages/e2e"
+  resolution: "@minhas-financas/e2e@workspace:packages/e2e"
   dependencies:
     "@4tw/cypress-drag-drop": ^2.2.5
     "@types/react": ^18.3.12
@@ -1606,9 +1606,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@greencapital/manager@workspace:packages/app/manager":
+"@minhas-financas/manager@workspace:packages/app/manager":
   version: 0.0.0-use.local
-  resolution: "@greencapital/manager@workspace:packages/app/manager"
+  resolution: "@minhas-financas/manager@workspace:packages/app/manager"
   dependencies:
     "@firebase/auth": ^1.8.0
     "@types/react": ^18.3.12
@@ -1631,9 +1631,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@greencapital/services@*, @greencapital/services@workspace:packages/services":
+"@minhas-financas/services@*, @minhas-financas/services@workspace:packages/services":
   version: 0.0.0-use.local
-  resolution: "@greencapital/services@workspace:packages/services"
+  resolution: "@minhas-financas/services@workspace:packages/services"
   dependencies:
     "@types/jest": ^29.5.14
     "@types/node": ^22.8.1
@@ -1653,9 +1653,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@greencapital/sso@workspace:packages/app/sso":
+"@minhas-financas/sso@workspace:packages/app/sso":
   version: 0.0.0-use.local
-  resolution: "@greencapital/sso@workspace:packages/app/sso"
+  resolution: "@minhas-financas/sso@workspace:packages/app/sso"
   dependencies:
     "@firebase/auth": ^1.8.0
     "@types/react": ^18.3.12
@@ -1676,9 +1676,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@greencapital/toolkit@*, @greencapital/toolkit@workspace:packages/toolkit":
+"@minhas-financas/toolkit@*, @minhas-financas/toolkit@workspace:packages/toolkit":
   version: 0.0.0-use.local
-  resolution: "@greencapital/toolkit@workspace:packages/toolkit"
+  resolution: "@minhas-financas/toolkit@workspace:packages/toolkit"
   dependencies:
     "@types/jest": ^29.5.14
     "@types/node": ^22.8.1
@@ -1699,9 +1699,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@greencapital/ui@*, @greencapital/ui@workspace:packages/ui":
+"@minhas-financas/ui@*, @minhas-financas/ui@workspace:packages/ui":
   version: 0.0.0-use.local
-  resolution: "@greencapital/ui@workspace:packages/ui"
+  resolution: "@minhas-financas/ui@workspace:packages/ui"
   dependencies:
     "@chromatic-com/storybook": 1.9.0
     "@rollup/plugin-commonjs": ^28.0.1
@@ -7123,15 +7123,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"greencapital@workspace:.":
+"minhas-financas@workspace:.":
   version: 0.0.0-use.local
-  resolution: "greencapital@workspace:."
+  resolution: "minhas-financas@workspace:."
   dependencies:
     "@eslint/js": ^9.13.0
-    "@greencapital/context": "*"
-    "@greencapital/services": "*"
-    "@greencapital/toolkit": "*"
-    "@greencapital/ui": "*"
+    "@minhas-financas/context": "*"
+    "@minhas-financas/services": "*"
+    "@minhas-financas/toolkit": "*"
+    "@minhas-financas/ui": "*"
     eslint: ^9.13.0
     eslint-plugin-import-helpers: ^2.0.1
     eslint-plugin-react: ^7.37.2

@@ -1,10 +1,10 @@
 import { createContext, useEffect, useMemo, useState } from 'react';
 
-import { useAlert } from '@greencapital/ui/components/Alert';
+import { useAlert } from '@minhas-financas/ui/components/Alert';
 
-import type { TagData } from '@greencapital/services/tags';
+import type { TagData } from '@minhas-financas/services/tags';
 
-import { useUser } from '@greencapital/context/user';
+import { useUser } from '@minhas-financas/context/user';
 
 import { tagsServices } from '@/services/core';
 import { useGlobal } from '@/global';

@@ -1,5 +1,5 @@
-import { decode } from '@greencapital/toolkit/jwt';
-import { Cookies, local } from '@greencapital/toolkit/dom';
+import { decode } from '@minhas-financas/toolkit/jwt';
+import { Cookies, local } from '@minhas-financas/toolkit/dom';
 
 import db from '@/db';
 

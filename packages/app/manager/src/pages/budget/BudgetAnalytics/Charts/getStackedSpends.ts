@@ -1,6 +1,6 @@
-import type { ChartData } from '@greencapital/ui/charts';
+import type { ChartData } from '@minhas-financas/ui/charts';
 
-import type { BudgetData } from '@greencapital/services/budgets';
+import type { BudgetData } from '@minhas-financas/services/budgets';
 
 export default function getStackedSpends(releases: BudgetData[] = []): ChartData[] {
     const entry = releases

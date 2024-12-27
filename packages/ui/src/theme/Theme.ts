@@ -1,5 +1,5 @@
 
-import type { Path } from '@greencapital/toolkit/interface';
+import type { Path } from '@minhas-financas/toolkit/interface';
 
 export type Mode = 'light' | 'dark'
 

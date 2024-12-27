@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, signOut, connectAuthEmulator } from 'firebase/auth';
 import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore';
 
-import DB from '@greencapital/services/db';
-import AuthServices from '@greencapital/services/auth';
-import UserServices from '@greencapital/services/user';
-import TagsServices from '@greencapital/services/tags';
-import BudgetsServices from '@greencapital/services/budgets';
-import CategoriesServices from '@greencapital/services/categories';
+import DB from '@minhas-financas/services/db';
+import AuthServices from '@minhas-financas/services/auth';
+import UserServices from '@minhas-financas/services/user';
+import TagsServices from '@minhas-financas/services/tags';
+import BudgetsServices from '@minhas-financas/services/budgets';
+import CategoriesServices from '@minhas-financas/services/categories';
 
 // VARIABLES
 export const url = {

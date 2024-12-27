@@ -1,6 +1,6 @@
 import { CSSProperties, useEffect, useMemo, useState } from 'react';
 
-import { slug } from '@greencapital/toolkit/string';
+import { slug } from '@minhas-financas/toolkit/string';
 
 import Icon from '@/components/Icon';
 import Stack from '@/components/Stack';

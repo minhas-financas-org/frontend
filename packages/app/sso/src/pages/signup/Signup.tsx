@@ -1,20 +1,20 @@
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
-import Box from '@greencapital/ui/components/Box';
-import Icon from '@greencapital/ui/components/Icon';
-import Logo from '@greencapital/ui/components/Logo';
-import Slide from '@greencapital/ui/animations/Slide';
-import Stack from '@greencapital/ui/components/Stack';
-import Input from '@greencapital/ui/components/Input';
-import Button from '@greencapital/ui/components/Button';
-import Divider from '@greencapital/ui/components/Divider';
-import Loading from '@greencapital/ui/components/Loading';
-import Container from '@greencapital/ui/components/Container';
-import ButtonIcon from '@greencapital/ui/components/ButtonIcon';
-import Typography from '@greencapital/ui/components/Typography';
-import { Card, CardContent } from '@greencapital/ui/components/Card';
-import Form, { Control, FormControl, useForm } from '@greencapital/ui/components/Form';
+import Box from '@minhas-financas/ui/components/Box';
+import Icon from '@minhas-financas/ui/components/Icon';
+import Logo from '@minhas-financas/ui/components/Logo';
+import Slide from '@minhas-financas/ui/animations/Slide';
+import Stack from '@minhas-financas/ui/components/Stack';
+import Input from '@minhas-financas/ui/components/Input';
+import Button from '@minhas-financas/ui/components/Button';
+import Divider from '@minhas-financas/ui/components/Divider';
+import Loading from '@minhas-financas/ui/components/Loading';
+import Container from '@minhas-financas/ui/components/Container';
+import ButtonIcon from '@minhas-financas/ui/components/ButtonIcon';
+import Typography from '@minhas-financas/ui/components/Typography';
+import { Card, CardContent } from '@minhas-financas/ui/components/Card';
+import Form, { Control, FormControl, useForm } from '@minhas-financas/ui/components/Form';
 
 import { useGlobal } from '@/global';
 

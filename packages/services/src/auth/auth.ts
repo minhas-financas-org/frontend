@@ -1,6 +1,6 @@
-import { decode } from '@greencapital/toolkit/jwt';
-import { local } from '@greencapital/toolkit/dom/local';
-import { Cookies } from '@greencapital/toolkit/dom/cookies';
+import { decode } from '@minhas-financas/toolkit/jwt';
+import { local } from '@minhas-financas/toolkit/dom/local';
+import { Cookies } from '@minhas-financas/toolkit/dom/cookies';
 
 import { UserData } from '@/user';
 

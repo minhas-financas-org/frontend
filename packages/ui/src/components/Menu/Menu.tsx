@@ -1,6 +1,6 @@
 import { Children, cloneElement, forwardRef, ReactElement, useEffect, useMemo, useState, CSSProperties } from 'react';
 
-import { uuid } from '@greencapital/toolkit/uuid';
+import { uuid } from '@minhas-financas/toolkit/uuid';
 
 import { joinClass, debounce } from '@/utils';
 import { Card, CardContent } from '@/components/Card';

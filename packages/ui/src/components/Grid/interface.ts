@@ -1,6 +1,6 @@
 import { HtmlHTMLAttributes } from 'react';
 
-import type { IntRange } from '@greencapital/toolkit/interface';
+import type { IntRange } from '@minhas-financas/toolkit/interface';
 
 export type Size = {
     sm: IntRange<0, 13>;

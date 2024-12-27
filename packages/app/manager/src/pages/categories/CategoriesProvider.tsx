@@ -1,10 +1,10 @@
 import { createContext, useEffect, useMemo, useState } from 'react';
 
-import { useAlert } from '@greencapital/ui/components/Alert';
+import { useAlert } from '@minhas-financas/ui/components/Alert';
 
-import type { CategoryData, CategoryType } from '@greencapital/services/categories';
+import type { CategoryData, CategoryType } from '@minhas-financas/services/categories';
 
-import { useUser } from '@greencapital/context/user';
+import { useUser } from '@minhas-financas/context/user';
 
 import { useGlobal } from '@/global';
 import { categoriesServices } from '@/services/core';

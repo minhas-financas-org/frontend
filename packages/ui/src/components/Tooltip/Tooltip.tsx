@@ -1,6 +1,6 @@
 import { cloneElement, HtmlHTMLAttributes, useMemo, useState } from 'react';
 
-import { uuid } from '@greencapital/toolkit/uuid';
+import { uuid } from '@minhas-financas/toolkit/uuid';
 
 import { useTheme } from '@/theme';
 import { joinClass } from '@/utils';

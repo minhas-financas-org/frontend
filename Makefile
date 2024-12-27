@@ -1,6 +1,6 @@
 RUN:=yarn
 
-NAME:=greencapital
+NAME:=minhas-financas
 
 # STYLE BOX #
 ERROR_BOX=\x1b[41m

@@ -1,5 +1,5 @@
-import validators from '@greencapital/toolkit/validators';
-import { maskCpf, maskCurrency, maskPhone } from '@greencapital/toolkit/mask';
+import validators from '@minhas-financas/toolkit/validators';
+import { maskCpf, maskCurrency, maskPhone } from '@minhas-financas/toolkit/mask';
 
 export const MESSAGES = {
     email: () => 'O campo deve ser um email válido',

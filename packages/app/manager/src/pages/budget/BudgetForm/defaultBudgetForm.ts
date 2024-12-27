@@ -1,6 +1,6 @@
 import { format } from 'date-fns';
 
-import { BudgetData } from '@greencapital/services/budgets';
+import { BudgetData } from '@minhas-financas/services/budgets';
 
 const date = format(new Date(), 'yyyy-MM');
 

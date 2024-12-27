@@ -15,7 +15,7 @@
 
   <strong>Status</strong>
 
-  [![CI](https://github.com/LeoCpii/greencapital-ciclos/actions/workflows/ci.yml/badge.svg)](https://github.com/LeoCpii/greencapital-ciclos/actions/workflows/ci.yml)
+  [![CI](https://github.com/LeoCpii/minhas-financas-ciclos/actions/workflows/ci.yml/badge.svg)](https://github.com/LeoCpii/minhas-financas-ciclos/actions/workflows/ci.yml)
   </p>
 </div>
 
@@ -34,26 +34,26 @@ SSO | ##SSO_URL
 
 ## Solução desenvolvida
 
-O projeto é composto por duas aplicações principais: a primeira, chamada [SSO](https://github.com/LeoCpii/greencapital-ciclos/tree/master/packages/app/sso), é responsável por autenticar e registrar os usuários na base de dados. ##DESCREVER_MAIS_APLICACOES_AQUI##. Além dessas, foram desenvolvidos cinco módulos adicionais - `@greencapital/ui`, `@greencapital/toolkit`, `@greencapital/services`, `@greencapital/e2e` e `DB` - para ampliar as funcionalidades e suportar as operações do sistema.
+O projeto é composto por duas aplicações principais: a primeira, chamada [SSO](https://github.com/LeoCpii/minhas-financas-ciclos/tree/master/packages/app/sso), é responsável por autenticar e registrar os usuários na base de dados. ##DESCREVER_MAIS_APLICACOES_AQUI##. Além dessas, foram desenvolvidos cinco módulos adicionais - `@minhas-financas/ui`, `@minhas-financas/toolkit`, `@minhas-financas/services`, `@minhas-financas/e2e` e `DB` - para ampliar as funcionalidades e suportar as operações do sistema.
 
-### [@greencapital/ui](https://github.com/LeoCpii/greencapital-ciclos/tree/master/packages/ui)
+### [@minhas-financas/ui](https://github.com/LeoCpii/minhas-financas-ciclos/tree/master/packages/ui)
 
 Responsável por gerenciar tokens *CSS* e fornecer todos os componentes e utilitários visuais do projeto, garantindo consistência e reutilização em toda a interface.
 
 
-### [@greencapital/toolkit](https://github.com/LeoCpii/greencapital-ciclos/tree/master/packages/toolkit)
+### [@minhas-financas/toolkit](https://github.com/LeoCpii/minhas-financas-ciclos/tree/master/packages/toolkit)
 
 É uma caixa de ferramentas JavaScript que oferece uma variedade de utilitários, incluindo formatação de dados, validações e mapeamento de objetos, facilitando o desenvolvimento e mantendo o código mais organizado e eficiente.
 
-### [@greencapital/services](https://github.com/LeoCpii/greencapital-ciclos/tree/master/packages/services)
+### [@minhas-financas/services](https://github.com/LeoCpii/minhas-financas-ciclos/tree/master/packages/services)
 
 Atua como a camada intermediária entre o frontend e a API (Firebase), gerenciando as requisições, tratando validações de erros e mapeando queries e chamadas ao Firestore
 
-### [@greencapital/e2e](https://github.com/LeoCpii/greencapital-ciclos/tree/master/packages/e2e)
+### [@minhas-financas/e2e](https://github.com/LeoCpii/minhas-financas-ciclos/tree/master/packages/e2e)
 
 Projeto para criação e execução dos testes e2e
 
-### [db](https://github.com/LeoCpii/greencapital-ciclos/tree/master/packages/db)
+### [db](https://github.com/LeoCpii/minhas-financas-ciclos/tree/master/packages/db)
 
 O DB é um [emulador do Firebase](https://firebase.google.com/docs/emulator-suite?hl=pt-br). É utilizado para desenvolvimento local e para suportar testes de integração com execução `In-Memory`. Com esse recurso, é possível desenvolver e testar com tranquilidade, garantindo uma base de dados limpa para cada execução.
 
@@ -62,13 +62,13 @@ O DB é um [emulador do Firebase](https://firebase.google.com/docs/emulator-suit
 1. Clone o repositório
 
 ```bash
-git clone https://github.com/LeoCpii/greencapital-ciclos.git
+git clone https://github.com/LeoCpii/minhas-financas-ciclos.git
 ```
 
 2. Acesse o diretório do projeto
 
 ```bash
-cd greencapital
+cd minhas-financas
 ```
 
 3. Fazer o setup da aplicação:
