@@ -3,7 +3,7 @@
     "production": "minhas-financas"
   },
   "targets": {
-    "minhas-financas": {
+    "minhas-financas-eef05": {
       "hosting": {
         "manager": [
           "manager-minhas-financas"
