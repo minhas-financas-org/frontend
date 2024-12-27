@@ -1,9 +1,9 @@
 {
   "projects": {
-    "production": "minhas-financas"
+    "production": "minhas-financas-eef05"
   },
   "targets": {
-    "minhas-financas": {
+    "minhas-financas-eef05": {
       "hosting": {
         "sso": [
           "sso-minhas-financas"
